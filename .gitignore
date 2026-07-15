@@ -1,0 +1,55 @@
+# ==========================================
+# Python Virtual Environments & Packages
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+python-local-env/
+
+# ==========================================
+# Python Caches & Compiled files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# uv Specific
+# ==========================================
+# Keep uv.lock and pyproject.toml in git!
+# Only ignore uv's temporary/local settings if they pop up
+.uv/
+
+# ==========================================
+# Distribution & Builds
+# ==========================================
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+secrets.json
+
+# ==========================================
+# OS & IDE Specific
+# ==========================================
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
